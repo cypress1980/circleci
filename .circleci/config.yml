@@ -11,4 +11,3 @@ workflows:
           yarn: true
           parallel: true
           parallelism: 4
-          group: 2 machines
