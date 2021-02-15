@@ -6,7 +6,7 @@ describe("Test login funcationlity ", () => {
   });
   it("Login Into Application", () => {
     cy.get("#ctl00_CPHContainer_txtUserLogin").type("kailash1980");
-    cy.get("#ctl00_CPHContainer_txtPassword").type("Sonie8088");
+    cy.get("#ctl00_CPHContainer_txtPassword").type("Sonie80881");
     cy.get("#ctl00_CPHContainer_btnLoginn").click();
   });
   it("Logout From Application", () => {
