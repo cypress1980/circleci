@@ -6,4 +6,5 @@ workflows:
     jobs:
       - cypress/run:
           yarn: true
-          store_artifacts: true
+          parallel: true
+          parallelism: 2
