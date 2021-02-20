@@ -7,4 +7,5 @@ workflows:
       - cypress/run:
           yarn: true
           parallel: true
-          parallelism: 2
+          parallelism: 3
+           group: 2 machines
