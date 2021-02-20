@@ -6,6 +6,3 @@ workflows:
     jobs:
       - cypress/run:
           yarn: true
-          parallel: true
-          parallelism: 3
-           group: 2 machines
