@@ -7,3 +7,5 @@ workflows:
       - cypress/run:
           yarn: true
           record: true
+          parallel: true
+          parallelism: 4
