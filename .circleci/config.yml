@@ -11,4 +11,4 @@ workflows:
           yarn: true
           parallel: true
 	        record: true
-          parallelism: 4
+          parallelism: 2
