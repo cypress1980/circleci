@@ -4,11 +4,6 @@ orbs:
 workflows:
   build:
     jobs:
-      - cypress/install
       - cypress/run:
-          requires:
-            - cypress/install
           yarn: true
-          parallel: true
-          record: true
-          parallelism: 4
+          store_artifacts: true
