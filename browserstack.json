@@ -1,0 +1,26 @@
+{
+  "auth": {
+    "username": "kewalpat1",
+    "access_key": "s81QShazbpLKkBXr4pza"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "edge",
+      "os": "OS X Catalina",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./cypress.json",
+    "cypress_version": "6",
+    "project_name": "My cypress Browser Stack project : Run from jenkin",
+    "build_name": "Build no. 1",
+    "parallels": "1"
+  }
+}
+    
