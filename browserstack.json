@@ -18,6 +18,7 @@
     "parallels": "1"
   },
   "connection_settings": {
-    "local": true
+    "local": true,
+    "local_identifier": "CypressLocalConnection1"
   }
 }
