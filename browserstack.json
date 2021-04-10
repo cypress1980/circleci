@@ -21,6 +21,8 @@
     "project_name": "My cypress Browser Stack project : Run from jenkin",
     "build_name": "Build no. 1",
     "parallels": "1"
+  },
+  "connection_settings": {
+    "local": true
   }
 }
-    
