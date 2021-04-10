@@ -8,11 +8,6 @@
       "browser": "chrome",
       "os": "Windows 10",
       "versions": ["latest"]
-    },
-    {
-      "browser": "edge",
-      "os": "OS X Catalina",
-      "versions": ["latest"]
     }
   ],
   "run_settings": {
