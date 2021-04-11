@@ -8,14 +8,18 @@
       "browser": "chrome",
       "os": "Windows 10",
       "versions": ["latest"]
+    },
+    {
+      "browser": "firefox",
+      "os": "Windows 10",
+      "versions": ["latest"]
     }
   ],
   "run_settings": {
     "cypress_config_file": "./cypress.json",
     "cypress_version": "6",
     "project_name": "My cypress Browser Stack project : Run from jenkin",
-    "parallels": "1",
-    "build_name": "Cypress -Jenkin: 3"
+    "parallels": "1"
   },
   "connection_settings": {
     "local": true,
