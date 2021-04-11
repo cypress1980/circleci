@@ -1,1 +1,7 @@
-    { "projectId": "7ug3wr" }
+{
+  "projectId": "7ug3wr",
+  "env": {
+    "login_url": "/login",
+    "products_url": "/products"
+  }
+}
