@@ -25,9 +25,5 @@
     "cypress_version": "6",
     "project_name": "My cypress Browser Stack project",
     "parallels": "3"
-  },
-  "connection_settings": {
-    "local": true,
-    "local_identifier": "CypressLocalConnection1"
   }
 }
