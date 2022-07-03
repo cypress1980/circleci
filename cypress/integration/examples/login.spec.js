@@ -2,7 +2,8 @@
 
 describe("Test login funcationlity ", () => {
   it("Open URL", () => {
-    cy.visit("http://www.testyou.in/Login.aspx");
+    //cy.visit("./.");
+    cy.visit(Cypress.env("login_url"));
   });
   it("Login Into Application", () => {
     cy.get("#ctl00_CPHContainer_txtUserLogin").type("kailash1980");

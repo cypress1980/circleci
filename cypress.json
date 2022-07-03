@@ -1,7 +1,8 @@
 {
   "projectId": "7ug3wr",
   "env": {
-    "login_url": "/login",
+    "login_url": "http://www.testyou.in/Login.aspx",
     "products_url": "/products"
-  }
+  },
+  "baseUrl": "http://www.testyou.in/Login.aspx"
 }

@@ -1,16 +1,11 @@
 {
   "auth": {
-    "username": "kailashpathak3",
-    "access_key": "Z2Pdg7CqyGFugXR7Appq"
+    "username": "ronneliu1",
+    "access_key": "zhHcyKPpkmzh1vuJfM4C"
   },
   "browsers": [
     {
       "browser": "chrome",
-      "os": "Windows 10",
-      "versions": ["latest"]
-    },
-    {
-      "browser": "firefox",
       "os": "Windows 10",
       "versions": ["latest"]
     },
@@ -22,8 +17,7 @@
   ],
   "run_settings": {
     "cypress_config_file": "./cypress.json",
-    "cypress_version": "6",
-    "project_name": "My cypress Browser Stack project",
-    "parallels": "3"
+    "cypress_version": "9",
+    "project_name": "My cypress Browser Stack project"
   }
 }
