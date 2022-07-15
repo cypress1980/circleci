@@ -1,18 +1,18 @@
 /// <reference types="cypress" />
 
-describe("Test login funcationlity ", () => {
+describe("Test login funcationlity : login into  the application and logout ", () => {
   it("Open URL", () => {
-    //cy.visit("./.");
-    cy.visit(Cypress.env("login_url"));
+    cy.visit("https://bstackdemo.com/");
   });
-  it("Login Into Application", () => {
-    cy.get("#ctl00_CPHContainer_txtUserLogin").type("kailash1980");
-    cy.get("#ctl00_CPHContainer_txtPassword").type("Sonie8088");
-    cy.get("#ctl00_CPHContainer_btnLoginn").click();
+  it("Verify links in Browser Stack Home Page ", () => {
+    cy.contains("Offers");
+    cy.contains("Orders");
+    cy.contains("Favourites");
   });
-  it("Logout From Application", () => {
-    cy.get("#ctl00_headerTopStudent_lnkbtnSignout").click();
+  it("Verify Phone Modle in Home Page ", () => {
+    cy.contains("iPhone 12");
+    cy.contains("Pixel 2");
+    cy.contains("One Plus 8");
+    cy.contains("One Plus 6T");
   });
 });
-//"projectId": "7ug3wr"
-// 9e44b038-201e-4d29-b5a2-e71644641eb2
