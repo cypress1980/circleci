@@ -18,6 +18,6 @@
   "run_settings": {
     "cypress_config_file": "./cypress.json",
     "cypress_version": "9",
-    "project_name": "My cypress Browser Stack project"
+    "project_name": "My cypress Browser Stack projects"
   }
 }
